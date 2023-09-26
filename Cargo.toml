@@ -1,0 +1,15 @@
+[package]
+name = "clank-clunk"
+version = "0.1.0"
+edition = "2021"
+license = "CC0-1"
+description = "Tools for making a synthesis engine"
+categories = ["multimedia::audio"]
+keywords = ["synthesis", "audio"]
+repository =  "https://github.com/PurpleBooth/clank-clunk"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rodio = "0.17.1"
+staff = { version = "0.11.0", features = ["full"] }
